@@ -1,0 +1,33 @@
+.convenience__title {
+  font-family: 'History Pro', sans-serif;
+  font-size: 22px;
+  line-height: 36px;
+  white-space: pre-line;
+  text-align: center;
+  color: #000000;
+  margin-top: 73px;
+  margin-bottom: 20px;
+  @media (min-width:1025px) {
+    font-size: 40px;
+    line-height: 64px;
+    white-space: normal;
+  }
+}
+.convenience-widht {
+  width: 122.26px;
+  height: 122.53px;
+  @media (min-width:720px) {
+    width: 294px;
+    height: 294px;
+  }
+  @media (min-width:1025px) {
+    width: 467px;
+    height: 468px;
+  }
+}
+.convenience__body {
+  margin-bottom: 70px;
+
+@media (min-width:1025px) {
+  margin-top: 164px;
+}}

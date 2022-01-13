@@ -1,0 +1,76 @@
+.services-body__content {
+  display: flex;
+}
+.services-body {
+  padding-top: 50px;
+  margin-bottom: 76px;
+  @media (min-width:1025px) {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 93px;
+    margin-bottom: 91px;
+  }
+  @media (min-width:1430px) {
+    padding-left: 93px;
+    padding-right: 148px;
+  }
+  }
+
+
+.services-body__content{
+  margin-bottom: 28px;
+}
+.service-information {
+  margin-left: 25px;
+  @media (min-width:1025px) {
+    margin-left: 41px;
+  }
+
+}
+
+.service-information__title {
+  font-family: 'ApercuPro', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #111113;
+  margin-bottom: 11px;
+  @media (min-width:1025px) {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-feature-settings: 'salt' on, 'ss01' on;
+    color: #111113;
+  }
+}
+.service-information__text {
+  font-family: 'ApercuPro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 2px;
+  letter-spacing: 0.01em;
+  color: #666666;
+  @media (min-width:1025px) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+}
+
+.service-information__link>a{
+  font-family: 'ApercuPro', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  font-feature-settings: 'salt' on, 'ss01' on;
+  color: #111113;
+}
+@media (min-width:1025px) {
+.service-img >img{
+  height: 27.5px;
+  width: 27.5px;
+}
+}
