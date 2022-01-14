@@ -55,6 +55,99 @@ let textSwiper = new Swiper('.text-swiper', {
 
 swiperImg.controller.control = textSwiper;
 textSwiper.controller.control = swiperImg;
+let swiperImgBra = new Swiper('.mySwiperBra', {
+  slidesPerView: 1.67,
+  breakpoints:{
+    720:{
+      slidesPerView: 2,
+    },
+    1025:{
+      slidesPerView: 3,
+      spaceBetween:false,
+    }
+  }
+
+
+});
+
+let textSwiperBra = new Swiper('.text-swiperBra', {
+  slidesPerView: 1.67,
+  breakpoints:{
+    720:{
+      slidesPerView: 2,
+    },
+    1025:{
+      slidesPerView: 3,
+    }
+  }
+
+
+});
+
+swiperImgBra.controller.control = textSwiperBra;
+textSwiperBra.controller.control = swiperImgBra;
+let swiperImgKimono = new Swiper('.mySwiperKimono', {
+  slidesPerView: 1.67,
+  breakpoints:{
+    720:{
+      slidesPerView: 2,
+    },
+    1025:{
+      slidesPerView: 3,
+      spaceBetween:false,
+    }
+  }
+
+
+});
+
+let textSwiperKimono = new Swiper('.text-swiperKimono', {
+  slidesPerView: 1.67,
+  breakpoints:{
+    720:{
+      slidesPerView: 2,
+    },
+    1025:{
+      slidesPerView: 3,
+    }
+  }
+
+
+});
+
+swiperImgKimono.controller.control = textSwiperKimono;
+textSwiperKimono.controller.control = swiperImgKimono;
+let swiperImg4 = new Swiper('.mySwiper4', {
+  slidesPerView: 1.67,
+  breakpoints:{
+    720:{
+      slidesPerView: 2,
+    },
+    1025:{
+      slidesPerView: 3,
+      spaceBetween:false,
+    }
+  }
+
+
+});
+
+let textSwiper4 = new Swiper('.text-swiper4', {
+  slidesPerView: 1.67,
+  breakpoints:{
+    720:{
+      slidesPerView: 2,
+    },
+    1025:{
+      slidesPerView: 3,
+    }
+  }
+
+
+});
+
+swiperImg4.controller.control = textSwiper4;
+textSwiper4.controller.control = swiperImg4;
 
 let shopSwipperImg = new Swiper('.shop-swipper', {
   slidesPerView: 1.68,
